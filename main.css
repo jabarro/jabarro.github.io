@@ -1,3 +1,64 @@
 body {
-		background: blue
+}
+
+#head-container {
+	border: 1px solid black;
+}
+
+#main-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.body-item {
+	display: flex;
+	padding: 1em;
+	margin: 30px;
+	border: 1px solid black;
+}
+
+#featured {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+#previous-projects {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+#previous-title {
+	width: 100%;
+}
+
+.project-item {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	width: 20%;
+	height: 100%;
+}
+
+#skills-biography{
+	justify-content: center;
+	align-content: center;
+	gap: 1em;
+}
+
+.skills-item {
+	border: 1px solid black;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+}
+
+#footer-container {
+	border: 1px solid black;
+	margin: auto;
 }
