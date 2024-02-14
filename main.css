@@ -1,18 +1,3 @@
-/*
-	Color Scheme: https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e
-	#F9F7F7
-	#DBE2EF
-	#3F72AF
-	#112D4E
-*/
-
-/*
-	TODO:
-		gradient background
-		pictures
-		fix color scheme
-*/
-
 body {
 	font-family: "Raleway", sans-serif;
 	background: #83C5BE;
@@ -30,7 +15,10 @@ body {
 #main-container {
 	display: flex;
 	flex-direction: column;
-	margin: 3em;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	width: 60%;
 }
 
 .body-item {
@@ -48,8 +36,8 @@ body {
 }
 
 #featured-img {
-	width: 70%;
-	height: 70%;
+	width: 432px;
+	height: 540px;
 	margin: auto;
 	padding: 10px;
 }
@@ -67,7 +55,7 @@ body {
 }
 
 .project-item {
-	background: #FFDDD2;
+	background: #E29578;
 	padding: 10px;
 	margin: 10px;
 	width: 20%;
