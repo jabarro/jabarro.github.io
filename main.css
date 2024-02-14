@@ -6,6 +6,12 @@
 	#112D4E
 */
 
+/*
+	TODO:
+		gradient background
+		pictures
+		fix color scheme
+*/
 
 body {
 	font-family: "Raleway", sans-serif;
@@ -24,6 +30,7 @@ body {
 #main-container {
 	display: flex;
 	flex-direction: column;
+	margin: 3em;
 }
 
 .body-item {
@@ -80,5 +87,14 @@ body {
 
 #footer-container {
 	background: #112D4E;
-	margin: auto;
+	padding: 20px;
+}
+
+#footer-container a {
+	text-decoration: none;
+	color:#DBE2EF;
+}
+
+#footer-container a::after{
+	color:#DBE2EF;
 }
