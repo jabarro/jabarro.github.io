@@ -40,10 +40,16 @@ body {
 }
 
 #featured {
-	background: #E29578;
+	flex-direction: column;
+	background: #006D77;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
+}
+
+#featured-img {
+	width: 100%;
+	height: 100%;
 }
 
 #previous-projects {
