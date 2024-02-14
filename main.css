@@ -33,12 +33,14 @@ body {
 }
 
 #featured {
+	background: #112D4E;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
 }
 
 #previous-projects {
+	background: #112D4E;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
@@ -50,7 +52,7 @@ body {
 }
 
 .project-item {
-	background: #112D4E;
+	background: #FFF;
 	padding: 10px;
 	margin: 10px;
 	width: 20%;
@@ -77,5 +79,6 @@ body {
 }
 
 #footer-container {
+	background: #112D4E;
 	margin: auto;
 }
